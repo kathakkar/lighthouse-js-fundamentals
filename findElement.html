@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script type="javascript">
+     let names = [];
+    let lists = document.getElementsByClassName("name");
+    //alert(lists[0].innerText);
+    for (let i = 0; i <= lists.length; i++){
+      names.push(lists[i].innerText);
+      alert(names);
+    }
+    alert(names);</script>
+</head>
+<body>
+  <h2>
+    List of People:
+  </h2>
+  
+  <ul class='people'>
+    <li class='name'>
+      Clara
+    </li>
+    <li class='name'>
+      James
+    </li>
+    <li class='name'>
+      Sara
+    </li>
+  </ul>
+</body>
+</html>
